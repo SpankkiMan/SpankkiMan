@@ -603,6 +603,38 @@ img {
     background-size: cover;
 }
 
+.intro__title {
+    padding-top: 250px;
+    padding-left: 80px;
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120px;
+    color: #FFFFFF;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.intro__subtitle {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 40px;
+    max-width: 470px;
+    padding-left: 80px;
+    margin-bottom: 25px;
+}
+
+.intro__link_a {
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    padding: 8px 72px;
+    background: #BDAE82;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
 
 /*Finish Intro*/
 
@@ -619,15 +651,43 @@ img {
 }
 
 .skills__title {
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
     font-family: Merriweather;
     font-size: 40px;
-    font-style: normal;
     font-weight: bold;
     line-height: 80px;
     padding-top: 100px;
     padding-bottom: 60px;
     color: #BDAE82;
     text-align: center;
+}
+
+.skills__title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.skills__title:before,
+.skills__title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 280px;
+    height: 1px;
+    background-color: #BDAE82;
+    position: relative;
+}
+
+.skills__title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+.skills__title:after {
+    margin-right: -100%;
+    right: -14px;
 }
 
 .skills__cards {
@@ -648,6 +708,7 @@ img {
     line-height: 36px;
     text-align: center;
     color: rgb(255, 255, 255);
+    margin-bottom: 110px;
 }
 
 .skills__card_thumb {
@@ -667,3 +728,87 @@ img {
 
 
 /*Finish Section 1*/
+
+
+/*Start Section 2*/
+
+.portfolio {
+    position: relative;
+    background-color: rgb(15, 0, 0);
+}
+
+.portfolio__wrap {
+    margin: 0 40px 0 40px;
+}
+
+.portfolio__title {
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: #BDAE82;
+    text-align: center;
+}
+
+.portfolio__title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.portfolio__title:before,
+.portfolio__title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 280px;
+    height: 1px;
+    background-color: #BDAE82;
+    position: relative;
+}
+
+.portfolio__title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+.portfolio__title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+.portfolio__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+    padding: 0 272px;
+}
+
+.portfolio__card {
+    color: #BDAE82;
+    line-height: 50px;
+    border: solid #BDAE82;
+    text-align: center;
+}
+
+.portfolio__card_link {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #BDAE82;
+}
+
+.portfolio__photos {
+    display: grid;
+    grid-template-columns: repeat(6, 3px;
+}
+
+
+/*Finish Section 2*/
