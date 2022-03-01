@@ -735,6 +735,7 @@ img {
 .portfolio {
     position: relative;
     background-color: rgb(15, 0, 0);
+    padding: 0 20px 0 20px;
 }
 
 .portfolio__wrap {
@@ -784,7 +785,7 @@ img {
 .portfolio__cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-bottom: 60px;
+    margin-bottom: 35px;
     flex-wrap: wrap;
     padding: 0 272px;
 }
@@ -806,8 +807,21 @@ img {
 }
 
 .portfolio__photos {
-    display: grid;
-    grid-template-columns: repeat(6, 3px;
+    display: flex;
+}
+
+.portfolio__photos-inner {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 35px 0 0;
+    list-style: none
+}
+
+.first {
+    margin-top: 25px;
 }
 
 
