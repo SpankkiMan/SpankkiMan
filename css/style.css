@@ -824,5 +824,121 @@ img {
     margin-top: 25px;
 }
 
+.portfolio__video-title {
+    overflow: hidden;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: #BDAE82;
+    text-align: center;
+}
+
+.portfolio__video-title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.portfolio__video-title:before,
+.portfolio__video-title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 280px;
+    height: 1px;
+    background-color: #BDAE82;
+    position: relative;
+}
+
+.portfolio__video-title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+.portfolio__video-title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+.portfolio__video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video__icon {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.vidos {
+    fill: #bdae82;
+}
+
+.price__title {
+    overflow: hidden;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    color: #BDAE82;
+    text-align: center;
+}
+
+.price__title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.price__title:before,
+.price__title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 280px;
+    height: 1px;
+    background-color: #BDAE82;
+    position: relative;
+}
+
+.price__title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+.price__title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+.price__type {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.item__price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 505px;
+    margin-top: 60px;
+    padding: 40px;
+    border: 3px solid
+}
+
 
 /*Finish Section 2*/
